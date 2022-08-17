@@ -1,0 +1,14 @@
+CRITICAL - 2022-08-17 12:13:31 --> Too few arguments to function App\Controllers\Produtos::Produtos(), 0 passed in C:\wamp64\www\Prj\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Produtos.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Produtos->Produtos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-17 12:15:16 --> Too few arguments to function App\Controllers\Produtos::ultProdutos(), 0 passed in C:\wamp64\www\Prj\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Produtos.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Produtos->ultProdutos()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
