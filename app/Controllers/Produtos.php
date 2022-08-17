@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use CodeIgniter\RESTful\ResourceController;
+use CodeIgniter\Database\Query;
 
 class Produtos extends ResourceController
 {
@@ -25,9 +26,9 @@ class Produtos extends ResourceController
         return $this->response->setJson($data);
     }
 
-    public function ultProdutos($id)
+    public function ultProdutos()
     {
-        $data = $this->produtosModel->getProdutos($id);
+        $data = $this->produtosModel->findAll(3);
         return $this->response->setJson($data);
     }
 
